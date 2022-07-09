@@ -158,6 +158,11 @@
           <artifactId>jetty-maven-plugin</artifactId>
           <version>8.0.0.M1</version>
         </plugin>
+               <plugin>
+    			<groupId>org.sonarsource.scanner.maven</groupId>
+    			<artifactId>sonar-maven-plugin</artifactId>
+    			<version>3.9.1.2184</version>
+		</plugin>
       </plugins>
     </pluginManagement>
   </build>
@@ -196,6 +201,12 @@
         <version>1.2.1</version>
         <scope>test</scope>
       </dependency>
+             
+             <dependency>
+    			<groupId>org.sonarsource.scanner.maven</groupId>
+    			<artifactId>sonar-maven-plugin</artifactId>
+    			<version>3.9.1.2184</version>
+		</dependency>
 
       <dependency>
         <groupId>org.mockito</groupId>
